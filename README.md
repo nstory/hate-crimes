@@ -3,6 +3,8 @@
 ## PROCEDURE
 Download the response provided by the law enforcement agency (LEA) to input/responses/<lea name>/. Then run claude "/extract-reports <lea name>". It will create the corresponding input/reports/<lea name>/ directory with one file per incident report.
 
+Run `make summarize-reports` to have claude make report summaries
+
 ## FILE PATHS
 ```
 input/responses/xxx # response from LEA xxx
