@@ -10,7 +10,7 @@ tables/table%.csv: lib/table%.rb $(wildcard input/ma-*.csv)
 	mkdir -p tables
 	ruby $< > $@
 
-TABLES = tables/table1.csv tables/table2.csv
+TABLES = tables/table1.csv tables/table2.csv tables/table3.csv tables/table18.csv
 
 .PHONY: readme
 readme: $(TABLES)

@@ -88,7 +88,65 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 <!-- /table2 -->
 
 ### Table 3: Bias Type for Reported Offenses ([CSV](tables/table3.csv))
+<!-- table3 -->
+
+| Bias Type | Destruction/Damage/Vandalism of Property | Intimidation | Simple Assault | Aggravated Assault | All Other Larceny | Burglary/Breaking & Entering | Counterfeiting/Forgery | Extortion/Blackmail | False Pretenses/Swindle/Confidence Game | Kidnapping/Abduction | Motor Vehicle Theft | Pocket-picking | Rape | Stolen Property Offenses | Theft From Building | Weapon Law Violations | Grand Total |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Anti-Black or African American | 48 | 30 | 29 | 16 | 1 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 129 |
+| Anti-Jewish | 88 | 12 | 2 | 2 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 107 |
+| Anti-Gay (Male) | 14 | 18 | 12 | 12 | 2 | 0 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 60 |
+| Anti-Hispanic or Latino | 2 | 7 | 12 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 31 |
+| Anti-Asian | 4 | 5 | 7 | 4 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 21 |
+| Anti-Other Race/Ethnicity/Ancestry | 5 | 2 | 5 | 3 | 3 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 20 |
+| Anti-Transgender | 5 | 7 | 5 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 18 |
+| Anti-White | 1 | 3 | 5 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 17 |
+| Anti-Lesbian, Gay, Bisexual, or Transgender (Mixed Group) | 7 | 1 | 2 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 14 |
+| Anti-Islamic (Muslim) | 2 | 6 | 1 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
+| Anti-Lesbian (Female) | 1 | 4 | 2 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
+| Anti-Arab | 0 | 2 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
+| Anti-Other Religion | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 |
+| Anti-Gender Non-Conforming | 0 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 4 |
+| Anti-Mental Disability | 0 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
+| Anti-Physical Disability | 0 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |
+| Anti-Bisexual | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
+| Anti-Catholic | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
+| Anti-Female | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| Anti-Hindu | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| Anti-Other Christian | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| Anti-Protestant | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| Anti-Sikh | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| **Grand Total** | **187** | **102** | **90** | **62** | **15** | **4** | **1** | **1** | **1** | **1** | **1** | **1** | **1** | **1** | **1** | **1** | **470** |
+
+<!-- /table3 -->
+
 ### Table 18: Hate Crimes By Agency (Top 20) ([CSV](tables/table18.csv))
+<!-- table18 -->
+
+| Agency | 2025 Total | 2024 Total |
+| :--- | ---: | ---: |
+| Boston | 120 | 149 |
+| Cambridge | 31 | 34 |
+| Somerville | 20 | 8 |
+| Springfield | 11 | 5 |
+| Medford | 10 | 9 |
+| Arlington | 9 | 6 |
+| Medway | 8 | 0 |
+| Belmont | 7 | 6 |
+| Newton | 7 | 43 |
+| Brandeis University | 6 | 9 |
+| Brookline | 6 | 4 |
+| Danvers | 6 | 10 |
+| Lowell | 6 | 1 |
+| Salem | 6 | 10 |
+| Chelmsford | 5 | 2 |
+| Framingham | 5 | 6 |
+| Harvard University | 5 | 4 |
+| Holyoke | 5 | 0 |
+| Plymouth | 5 | 4 |
+| Waltham | 5 | 4 |
+
+<!-- /table18 -->
+
 
 # INTERNAL NOTES
 The code in this project is all written by Claude. Don't edit it manually; ask Claude to do it.
