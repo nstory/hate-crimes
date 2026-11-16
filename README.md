@@ -45,6 +45,48 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 <!-- /table1 -->
 
 ### Table 2: Bias Types Reported to Police ([CSV](tables/table2.csv))
+<!-- table2 -->
+
+| Bias Types | 2024 Total | 2025 Total | % Change | % of 2025 Total |
+| :--- | ---: | ---: | ---: | ---: |
+| Anti-White | 11 | 17 | 54.5% | 3.6% |
+| Anti-Black or African American | 128 | 129 | 0.8% | 27.4% |
+| Anti-Asian | 23 | 21 | -8.7% | 4.5% |
+| Anti-American Indian or Alaska Native | 0 | 0 | 0.0% | 0.0% |
+| Anti-Native Hawaiian or Other Pacific Islander | 0 | 0 | 0.0% | 0.0% |
+| Anti-Multiple Races, Group | 1 | 0 | -100.0% | 0.0% |
+| Anti-Arab | 6 | 6 | 0.0% | 1.3% |
+| Anti-Hispanic or Latino | 29 | 31 | 6.9% | 6.6% |
+| Anti-Other Race / Ethnicity / Ancestry | 20 | 20 | 0.0% | 4.3% |
+| **Subtotal Anti-Race / Ethnicity / Ancestry** | **218** | **224** | **2.8%** | **47.7%** |
+| Anti-Jewish | 147 | 107 | -27.2% | 22.8% |
+| Anti-Catholic | 3 | 2 | -33.3% | 0.4% |
+| Anti-Islamic (Muslim) | 11 | 13 | 18.2% | 2.8% |
+| Anti-Hindu | 0 | 1 | NA | 0.2% |
+| Anti-Buddhist | 0 | 0 | 0.0% | 0.0% |
+| Anti-Atheism/Agnosticism | 1 | 0 | -100.0% | 0.0% |
+| Anti-Eastern Orthodox | 0 | 0 | 0.0% | 0.0% |
+| Anti-Sikh | 3 | 1 | -66.7% | 0.2% |
+| Anti-Other Religion | 10 | 7 | -30.0% | 1.5% |
+| **Subtotal Anti-Religion** | **175** | **131** | **-25.1%** | **27.9%** |
+| Anti-Gay | 53 | 60 | 13.2% | 12.8% |
+| Anti-Lesbian | 12 | 9 | -25.0% | 1.9% |
+| Anti-Lesbian, Gay, Bisexual, or Transgender (Mixed Group) | 18 | 14 | -22.2% | 3.0% |
+| Anti-Bisexual | 0 | 2 | NA | 0.4% |
+| **Subtotal Anti-Sexual Orientation** | **83** | **85** | **2.4%** | **18.1%** |
+| Anti-Mental Handicap | 1 | 4 | 300.0% | 0.9% |
+| Anti-Physical Handicap | 5 | 3 | -40.0% | 0.6% |
+| **Subtotal Anti-Disability** | **6** | **7** | **16.7%** | **1.5%** |
+| Anti-Female | 8 | 1 | -87.5% | 0.2% |
+| Anti-Male | 1 | 0 | -100.0% | 0.0% |
+| **Subtotal Anti-Gender** | **9** | **1** | **-88.9%** | **0.2%** |
+| Anti-Transgender | 17 | 18 | 5.9% | 3.8% |
+| Anti-Gender Non-Conforming | 2 | 4 | 100.0% | 0.9% |
+| **Subtotal Anti-Gender Identity** | **19** | **22** | **15.8%** | **4.7%** |
+| **Total** | **510** | **470** | **-7.8%** | **100.0%** |
+
+<!-- /table2 -->
+
 ### Table 3: Bias Type for Reported Offenses ([CSV](tables/table3.csv))
 ### Table 18: Hate Crimes By Agency (Top 20) ([CSV](tables/table18.csv))
 

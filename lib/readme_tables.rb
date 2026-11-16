@@ -14,14 +14,14 @@
 require "csv"
 
 README = "README.md"
-NUMERIC = /\A-?[\d,.]+%?\z/
+NUMERIC = /\A(-?[\d,.]+%?|NA)\z/
 
 def markdown_table(path)
   header, *rows = CSV.read(path)
   numeric = header.each_index.map { |i| rows.all? { |r| r[i].to_s.match?(NUMERIC) } }
 
   rows = rows.map do |row|
-    row.first == "Grand Total" ? row.map { |v| "**#{v}**" } : row
+    row.first.match?(/\A(Grand Total|Total|Subtotal\b)/) ? row.map { |v| "**#{v}**" } : row
   end
 
   line = ->(cells) { "| #{cells.map { |c| c.to_s.gsub("|", "\\|") }.join(' | ')} |" }

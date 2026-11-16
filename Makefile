@@ -6,11 +6,11 @@ summarize-reports:
 incidents-table:
 	ruby lib/incidents_table.rb
 
-tables/table1.csv: lib/table1.rb input/ma-2025.csv input/ma-2024.csv input/ma-2023.csv input/ma-2022.csv input/ma-2021.csv
+tables/table%.csv: lib/table%.rb $(wildcard input/ma-*.csv)
 	mkdir -p tables
-	ruby lib/table1.rb > $@
+	ruby $< > $@
 
-TABLES = tables/table1.csv
+TABLES = tables/table1.csv tables/table2.csv
 
 .PHONY: readme
 readme: $(TABLES)
