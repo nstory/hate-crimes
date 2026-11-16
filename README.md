@@ -48,7 +48,7 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 | **Grand Total** | **443** | **100.0%** | **481** | **100.0%** | **574** | **100.0%** | **452** | **100.0%** | **427** | **100.0%** |
 
 <!-- /table1 -->
-*This table counts offenses. A single incident with multiple bias-motivated offenses will be counted multiple times*
+*This table counts offenses. A single incident with multiple bias-motivated offenses is counted multiple times*
 
 ### Table 2: Bias Types Reported to Police ([CSV](tables/table2.csv))
 <!-- table2 -->
@@ -63,7 +63,7 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 | Anti-Multiple Races, Group | 1 | 0 | -100.0% | 0.0% |
 | Anti-Arab | 6 | 6 | 0.0% | 1.3% |
 | Anti-Hispanic or Latino | 29 | 31 | 6.9% | 6.6% |
-| Anti-Other Race / Ethnicity / Ancestry | 20 | 20 | 0.0% | 4.3% |
+| Anti-Other Race/Ethnicity/Ancestry | 20 | 20 | 0.0% | 4.3% |
 | **Subtotal Anti-Race / Ethnicity / Ancestry** | **218** | **224** | **2.8%** | **47.7%** |
 | Anti-Jewish | 147 | 107 | -27.2% | 22.8% |
 | Anti-Catholic | 3 | 2 | -33.3% | 0.4% |
@@ -71,17 +71,20 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 | Anti-Hindu | 0 | 1 | NA | 0.2% |
 | Anti-Buddhist | 0 | 0 | 0.0% | 0.0% |
 | Anti-Atheism/Agnosticism | 1 | 0 | -100.0% | 0.0% |
-| Anti-Eastern Orthodox | 0 | 0 | 0.0% | 0.0% |
+| Anti-Eastern Orthodox (Russian, Greek, Other) | 0 | 0 | 0.0% | 0.0% |
 | Anti-Sikh | 3 | 1 | -66.7% | 0.2% |
-| Anti-Other Religion | 10 | 7 | -30.0% | 1.5% |
+| Anti-Other Christian | 3 | 1 | -66.7% | 0.2% |
+| Anti-Protestant | 0 | 1 | NA | 0.2% |
+| Anti-Multiple Religions, Group | 0 | 0 | 0.0% | 0.0% |
+| Anti-Other Religion | 7 | 5 | -28.6% | 1.1% |
 | **Subtotal Anti-Religion** | **175** | **131** | **-25.1%** | **27.9%** |
-| Anti-Gay | 53 | 60 | 13.2% | 12.8% |
-| Anti-Lesbian | 12 | 9 | -25.0% | 1.9% |
+| Anti-Gay (Male) | 53 | 60 | 13.2% | 12.8% |
+| Anti-Lesbian (Female) | 12 | 9 | -25.0% | 1.9% |
 | Anti-Lesbian, Gay, Bisexual, or Transgender (Mixed Group) | 18 | 14 | -22.2% | 3.0% |
 | Anti-Bisexual | 0 | 2 | NA | 0.4% |
 | **Subtotal Anti-Sexual Orientation** | **83** | **85** | **2.4%** | **18.1%** |
-| Anti-Mental Handicap | 1 | 4 | 300.0% | 0.9% |
-| Anti-Physical Handicap | 5 | 3 | -40.0% | 0.6% |
+| Anti-Mental Disability | 1 | 4 | 300.0% | 0.9% |
+| Anti-Physical Disability | 5 | 3 | -40.0% | 0.6% |
 | **Subtotal Anti-Disability** | **6** | **7** | **16.7%** | **1.5%** |
 | Anti-Female | 8 | 1 | -87.5% | 0.2% |
 | Anti-Male | 1 | 0 | -100.0% | 0.0% |
@@ -92,7 +95,7 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 | **Total** | **510** | **470** | **-7.8%** | **100.0%** |
 
 <!-- /table2 -->
-*An offense with multiple bias markers (e.g. anti-Arab and anti-Muslim) will be counted multiple times.*
+*An offense with multiple bias markers (e.g. anti-Arab and anti-Muslim) is counted multiple times.*
 
 ### Table 3: Bias Type for Reported Offenses (2025) ([CSV](tables/table3.csv))
 <!-- table3 -->
@@ -125,7 +128,7 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 | **Grand Total** | **187** | **102** | **90** | **62** | **15** | **4** | **1** | **1** | **1** | **1** | **1** | **1** | **1** | **1** | **1** | **1** | **470** |
 
 <!-- /table3 -->
-*An offense with multiple bias markers (e.g. anti-Arab and anti-Muslim) will be counted multiple times.*
+*An offense with multiple bias markers (e.g. anti-Arab and anti-Muslim) is counted multiple times.*
 
 ### Table 18: Hate Crimes By Agency (Top 20) ([CSV](tables/table18.csv))
 <!-- table18 -->

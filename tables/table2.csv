@@ -7,7 +7,7 @@ Anti-Native Hawaiian or Other Pacific Islander,0,0,0.0%,0.0%
 "Anti-Multiple Races, Group",1,0,-100.0%,0.0%
 Anti-Arab,6,6,0.0%,1.3%
 Anti-Hispanic or Latino,29,31,6.9%,6.6%
-Anti-Other Race / Ethnicity / Ancestry,20,20,0.0%,4.3%
+Anti-Other Race/Ethnicity/Ancestry,20,20,0.0%,4.3%
 Subtotal Anti-Race / Ethnicity / Ancestry,218,224,2.8%,47.7%
 Anti-Jewish,147,107,-27.2%,22.8%
 Anti-Catholic,3,2,-33.3%,0.4%
@@ -15,17 +15,20 @@ Anti-Islamic (Muslim),11,13,18.2%,2.8%
 Anti-Hindu,0,1,NA,0.2%
 Anti-Buddhist,0,0,0.0%,0.0%
 Anti-Atheism/Agnosticism,1,0,-100.0%,0.0%
-Anti-Eastern Orthodox,0,0,0.0%,0.0%
+"Anti-Eastern Orthodox (Russian, Greek, Other)",0,0,0.0%,0.0%
 Anti-Sikh,3,1,-66.7%,0.2%
-Anti-Other Religion,10,7,-30.0%,1.5%
+Anti-Other Christian,3,1,-66.7%,0.2%
+Anti-Protestant,0,1,NA,0.2%
+"Anti-Multiple Religions, Group",0,0,0.0%,0.0%
+Anti-Other Religion,7,5,-28.6%,1.1%
 Subtotal Anti-Religion,175,131,-25.1%,27.9%
-Anti-Gay,53,60,13.2%,12.8%
-Anti-Lesbian,12,9,-25.0%,1.9%
+Anti-Gay (Male),53,60,13.2%,12.8%
+Anti-Lesbian (Female),12,9,-25.0%,1.9%
 "Anti-Lesbian, Gay, Bisexual, or Transgender (Mixed Group)",18,14,-22.2%,3.0%
 Anti-Bisexual,0,2,NA,0.4%
 Subtotal Anti-Sexual Orientation,83,85,2.4%,18.1%
-Anti-Mental Handicap,1,4,300.0%,0.9%
-Anti-Physical Handicap,5,3,-40.0%,0.6%
+Anti-Mental Disability,1,4,300.0%,0.9%
+Anti-Physical Disability,5,3,-40.0%,0.6%
 Subtotal Anti-Disability,6,7,16.7%,1.5%
 Anti-Female,8,1,-87.5%,0.2%
 Anti-Male,1,0,-100.0%,0.0%
