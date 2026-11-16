@@ -9,3 +9,9 @@ incidents-table:
 tables/table1.csv: lib/table1.rb input/ma-2025.csv input/ma-2024.csv input/ma-2023.csv input/ma-2022.csv input/ma-2021.csv
 	mkdir -p tables
 	ruby lib/table1.rb > $@
+
+TABLES = tables/table1.csv
+
+.PHONY: readme
+readme: $(TABLES)
+	ruby lib/readme_tables.rb
