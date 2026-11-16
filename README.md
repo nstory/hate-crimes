@@ -1,12 +1,12 @@
 # Hate Crime Reports Project
 
-## BACKGROUND
+## Background
 Each year, the [Massachusetts Hate Crimes Task Force](https://www.mass.gov/hate-crimes-task-force) puts out the Massachusetts Hate Crimes Report. The report provides tables aggregating hate crime incidents submitted by law enforcement agencies (LEA) and showing the delta from the previous year. We expect the report for calendar year 2025 will be released in December 2026.
 
-## THIS PROJECT
+## This Project
 This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads) to independently produce the tables that will appear in the 2025 Hate Crimes Report. We are also collecting incident reports directly from LEAs. Using these, we can provide a more in-depth view than the aggregate tables.
 
-## TABLES
+## Tables
 
 ### Table 1: Crimes Reported During Bias Incidents ([CSV](tables/table1.csv))
 <!-- table1 -->
@@ -87,7 +87,7 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 
 <!-- /table2 -->
 
-### Table 3: Bias Type for Reported Offenses ([CSV](tables/table3.csv))
+### Table 3: Bias Type for Reported Offenses (2025) ([CSV](tables/table3.csv))
 <!-- table3 -->
 
 | Bias Type | Destruction/Damage/Vandalism of Property | Intimidation | Simple Assault | Aggravated Assault | All Other Larceny | Burglary/Breaking & Entering | Counterfeiting/Forgery | Extortion/Blackmail | False Pretenses/Swindle/Confidence Game | Kidnapping/Abduction | Motor Vehicle Theft | Pocket-picking | Rape | Stolen Property Offenses | Theft From Building | Weapon Law Violations | Grand Total |
@@ -148,15 +148,19 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 <!-- /table18 -->
 
 
-# INTERNAL NOTES
-The code in this project is all written by Claude. Don't edit it manually; ask Claude to do it.
+# Internal Notes
 
-## PROCEDURE
+## AI Policy
+Almost all of the code in this repo was written by [Claude Code](https://claude.com/product/claude-code). Two principles:
+- AI is for writing code that's run by the computer
+- AI is not for writing English that's read by humans
+
+## Procedure
 Download the response provided by the law enforcement agency (LEA) to input/responses/<lea name>/. Then run claude "/extract-reports <lea name>". It will create the corresponding input/reports/<lea name>/ directory with one file per incident report.
 
 Run `make summarize-reports` to have claude make report summaries
 
-## FILE PATHS
+## File Paths
 ```
 input/responses/xxx # response from LEA xxx
 input/reports/xxx/yyy.pdf # incident yyy from LEA xxx
