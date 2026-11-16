@@ -13,6 +13,16 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 
 ## Tables
 
+### Counts of Incidents and Offenses 2021 - 2025
+<!-- tablecount -->
+
+| Crime Count | 2021 | 2022 | 2023 | 2024 | 2025 | Average |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Incidents | 407 | 433 | 552 | 467 | 427 | 457.2 |
+| Offenses | 427 | 452 | 574 | 481 | 443 | 475.4 |
+
+<!-- /tablecount -->
+
 ### Table 1: Crimes Reported During Bias Incidents ([CSV](tables/table1.csv))
 <!-- table1 -->
 
