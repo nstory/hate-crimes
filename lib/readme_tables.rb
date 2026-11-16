@@ -34,13 +34,16 @@ end
 
 readme = File.read(README)
 
-Dir["tables/table*.csv"].sort_by { |p| p[/\d+/].to_i }.each do |path|
+Dir["tables/*.csv"].sort.each do |path|
   name = File.basename(path, ".csv") # e.g. "table1"
-  num = name[/\d+/]
   open_tag = "<!-- #{name} -->"
   close_tag = "<!-- /#{name} -->"
 
   unless readme.include?(open_tag)
+    # Only numbered tables get markers added automatically; other CSVs are
+    # rendered only where markers have been placed by hand.
+    next unless (num = name[/\Atable(\d+)\z/, 1])
+
     heading = readme[/^### Table #{num}:.*$/]
     unless heading
       warn "no '### Table #{num}:' heading in #{README}; skipping #{path}"

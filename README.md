@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Tables](#tables)
 - [Incident Reports](#incident-reports)
-- [Internal Notes](#internal-notes)
+- [Development Notes](#development-notes)
 
 ## Background
 Each year, the [Massachusetts Hate Crimes Task Force](https://www.mass.gov/hate-crimes-task-force) puts out the Massachusetts Hate Crimes Report. The report provides tables aggregating hate crime incidents submitted by law enforcement agencies (LEA) and showing the delta from the previous year. We expect the report for calendar year 2025 will be released in December 2026.
@@ -175,7 +175,18 @@ For privacy reasons, we are not publishing the incident reports themselves. Inst
 
 Gathering the incident reports is a work in progress. This table tracks our progress:
 
-# Internal Notes
+<!-- progress -->
+
+| Status | Incidents |
+| :--- | ---: |
+| Received | 55 |
+| Denied | 17 |
+| In Progress | 355 |
+| **Total** | **427** |
+
+<!-- /progress -->
+
+# Development Notes
 
 ## AI Policy
 Almost all of the code in this repo was written by [Claude Code](https://claude.com/product/claude-code). Two principles:
