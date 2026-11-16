@@ -6,10 +6,10 @@
 - [Development Notes](#development-notes)
 
 ## Background
-Each year, the [Massachusetts Executive Office of Public Safety & Security](https://www.mass.gov/orgs/executive-office-of-public-safety-and-security) puts out the [Hate Crimes in Massachusetts Report](https://www.mass.gov/lists/reports-on-hate-crimes-in-massachusetts). The report provides tables aggregating hate crime incidents submitted by law enforcement agencies (LEA) and showing the delta from the previous year. We expect the report for calendar year 2025 will be released in December 2026.
+Each year, the [Massachusetts Executive Office of Public Safety & Security](https://www.mass.gov/orgs/executive-office-of-public-safety-and-security) puts out the [Hate Crimes in Massachusetts Report](https://www.mass.gov/lists/reports-on-hate-crimes-in-massachusetts). The report provides tables aggregating hate crime incidents submitted by law enforcement agencies (LEAs) and showing the change from the previous year. We expect that the report for calendar year 2025 will be released in December 2026.
 
 ## This Project
-This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads) to [independently produce the tables](#tables) that will appear in the 2025 Hate Crimes Report. We are also [collecting incident reports](#incident-reports) directly from LEAs. Using these, we can provide a more in-depth view than the aggregate tables.
+This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads) to [independently produce the tables](#tables) that will appear in the 2025 Hate Crimes Report. We are also [collecting incident reports](#incident-reports) directly from LEAs. These reports provide a more in-depth view than the aggregate tables.
 
 ## Tables
 
@@ -48,7 +48,7 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 | **Grand Total** | **443** | **100.0%** | **481** | **100.0%** | **574** | **100.0%** | **452** | **100.0%** | **427** | **100.0%** |
 
 <!-- /table1 -->
-*This table counts offenses. A single incident with multiple bias-motivated offenses is counted multiple times*
+*This table counts offenses. An incident with multiple bias-motivated offenses is counted once per offense.*
 
 ### Table 2: Bias Types Reported to Police ([CSV](tables/table2.csv))
 <!-- table2 -->
@@ -95,7 +95,7 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 | **Total** | **510** | **470** | **-7.8%** | **100.0%** |
 
 <!-- /table2 -->
-*An offense with multiple bias markers (e.g. anti-Arab and anti-Muslim) is counted multiple times.*
+*An offense with multiple bias markers (e.g. anti-Arab and anti-Muslim) is counted once per bias. This table uses NIBRS bias names, which differ in some places from the EOPSS names.*
 
 ### Table 3: Bias Type for Reported Offenses (2025) ([CSV](tables/table3.csv))
 <!-- table3 -->
@@ -128,7 +128,7 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 | **Grand Total** | **187** | **102** | **90** | **62** | **15** | **4** | **1** | **1** | **1** | **1** | **1** | **1** | **1** | **1** | **1** | **1** | **470** |
 
 <!-- /table3 -->
-*An offense with multiple bias markers (e.g. anti-Arab and anti-Muslim) is counted multiple times.*
+*An offense with multiple bias markers (e.g. anti-Arab and anti-Muslim) is counted once per bias.*
 
 ### Table 18: Hate Crimes By Agency (Top 20) ([CSV](tables/table18.csv))
 <!-- table18 -->
@@ -157,7 +157,7 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 | Waltham | 5 | 4 |
 
 <!-- /table18 -->
-*These counts are the number of incidents.*
+*This table counts incidents, not offenses.*
 
 ## Incident Reports
 
@@ -173,7 +173,7 @@ These files contain offenses with a bias motivation reported in Massachusetts. T
 | [ma-2025.csv](./input/ma-2025.csv) | 443 | 427 |
 
 ### 2025 Incidents with Summaries
-We submitted public records requests to agencies across Massachusetts requesting the reports for the incidents in [ma-2025.csv](./input/ma-2025.csv).
+We filed public records requests with agencies across Massachusetts requesting the reports for the incidents in [ma-2025.csv](./input/ma-2025.csv).
 
 For privacy reasons, we are not publishing the incident reports themselves. Instead, we've generated a one-sentence summary of each incident using [Claude Opus 5.5](https://platform.claude.com/docs/en/models/opus-5-5/overview).
 
