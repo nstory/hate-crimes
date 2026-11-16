@@ -1,4 +1,4 @@
-# Hate Crime Reports Project
+# Massachusetts Hate Crime Incidents
 
 ## Table of Contents
 - [Tables](#tables)
@@ -200,7 +200,7 @@ Almost all of the code in this repo was written by [Claude Code](https://claude.
 - AI is not for writing English that's read by humans
 
 ### Procedure
-Download the response provided by the law enforcement agency (LEA) to input/responses/<lea name>/. Then run claude "/extract-reports <lea name>". It will create the corresponding input/reports/<lea name>/ directory with one file per incident report.
+Download the response provided by the law enforcement agency (LEA) to `input/responses/<lea name>/`. Then run claude `"/extract-reports <lea name>"`. It will create the corresponding `input/reports/<lea name>/` directory with one file per incident report.
 
 Run `make summarize-reports` to have claude make report summaries
 
