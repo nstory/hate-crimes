@@ -6,7 +6,7 @@
 - [Development Notes](#development-notes)
 
 ## Background
-Each year, the [Massachusetts Hate Crimes Task Force](https://www.mass.gov/hate-crimes-task-force) puts out the Massachusetts Hate Crimes Report. The report provides tables aggregating hate crime incidents submitted by law enforcement agencies (LEA) and showing the delta from the previous year. We expect the report for calendar year 2025 will be released in December 2026.
+Each year, the [Massachusetts Executive Office of Public Safety & Security](https://www.mass.gov/orgs/executive-office-of-public-safety-and-security) puts out the [Hate Crimes in Massachusetts Report](https://www.mass.gov/lists/reports-on-hate-crimes-in-massachusetts). The report provides tables aggregating hate crime incidents submitted by law enforcement agencies (LEA) and showing the delta from the previous year. We expect the report for calendar year 2025 will be released in December 2026.
 
 ## This Project
 This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads) to [independently produce the tables](#tables) that will appear in the 2025 Hate Crimes Report. We are also [collecting incident reports](#incident-reports) directly from LEAs. Using these, we can provide a more in-depth view than the aggregate tables.
@@ -48,6 +48,7 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 | **Grand Total** | **443** | **100.0%** | **481** | **100.0%** | **574** | **100.0%** | **452** | **100.0%** | **427** | **100.0%** |
 
 <!-- /table1 -->
+*This table counts offenses. A single incident with multiple bias-motivated offenses will be counted multiple times*
 
 ### Table 2: Bias Types Reported to Police ([CSV](tables/table2.csv))
 <!-- table2 -->
@@ -91,6 +92,7 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 | **Total** | **510** | **470** | **-7.8%** | **100.0%** |
 
 <!-- /table2 -->
+*An offense with multiple bias markers (e.g. anti-Arab and anti-Muslim) will be counted multiple times.*
 
 ### Table 3: Bias Type for Reported Offenses (2025) ([CSV](tables/table3.csv))
 <!-- table3 -->
@@ -123,6 +125,7 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 | **Grand Total** | **187** | **102** | **90** | **62** | **15** | **4** | **1** | **1** | **1** | **1** | **1** | **1** | **1** | **1** | **1** | **1** | **470** |
 
 <!-- /table3 -->
+*An offense with multiple bias markers (e.g. anti-Arab and anti-Muslim) will be counted multiple times.*
 
 ### Table 18: Hate Crimes By Agency (Top 20) ([CSV](tables/table18.csv))
 <!-- table18 -->
@@ -151,7 +154,7 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 | Waltham | 5 | 4 |
 
 <!-- /table18 -->
-
+*These counts are the number of incidents.*
 
 ## Incident Reports
 
@@ -186,19 +189,21 @@ Gathering the incident reports is a work in progress. This table tracks our prog
 
 <!-- /progress -->
 
-# Development Notes
+## Development Notes
 
-## AI Policy
+### AI Policy
 Almost all of the code in this repo was written by [Claude Code](https://claude.com/product/claude-code). Two principles:
 - AI is for writing code that's run by the computer
 - AI is not for writing English that's read by humans
 
-## Procedure
+### Procedure
 Download the response provided by the law enforcement agency (LEA) to input/responses/<lea name>/. Then run claude "/extract-reports <lea name>". It will create the corresponding input/reports/<lea name>/ directory with one file per incident report.
 
 Run `make summarize-reports` to have claude make report summaries
 
-## File Paths
+Run `make readme` to refresh the tables in this README and all the CSVs.
+
+### File Paths
 ```
 input/responses/xxx # response from LEA xxx
 input/reports/xxx/yyy.pdf # incident yyy from LEA xxx
