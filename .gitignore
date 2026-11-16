@@ -1,3 +1,4 @@
 /input/*
 !/input/summaries/
+!/input/ma-*.csv
 /output

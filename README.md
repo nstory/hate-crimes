@@ -1,10 +1,15 @@
 # Hate Crime Reports Project
 
+## Table of Contents
+- [Tables](#tables)
+- [Incident Reports](#incident-reports)
+- [Internal Notes](#internal-notes)
+
 ## Background
 Each year, the [Massachusetts Hate Crimes Task Force](https://www.mass.gov/hate-crimes-task-force) puts out the Massachusetts Hate Crimes Report. The report provides tables aggregating hate crime incidents submitted by law enforcement agencies (LEA) and showing the delta from the previous year. We expect the report for calendar year 2025 will be released in December 2026.
 
 ## This Project
-This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads) to independently produce the tables that will appear in the 2025 Hate Crimes Report. We are also collecting incident reports directly from LEAs. Using these, we can provide a more in-depth view than the aggregate tables.
+This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads) to [independently produce the tables](#tables) that will appear in the 2025 Hate Crimes Report. We are also [collecting incident reports](#incident-reports) directly from LEAs. Using these, we can provide a more in-depth view than the aggregate tables.
 
 ## Tables
 
@@ -147,6 +152,28 @@ This project uses [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/page
 
 <!-- /table18 -->
 
+
+## Incident Reports
+
+### Offense-level CSVs
+These files contain offenses with a bias motivation reported in Massachusetts. They were created from the [FBI NIBRS data](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads). They contain one row per offense. A single incident report may have multiple offenses.
+
+| File | Offenses | Unique Incidents |
+| :--- | ---: | ---: |
+| [ma-2021.csv](./input/ma-2021.csv) | 427 | 407 |
+| [ma-2022.csv](./input/ma-2022.csv) | 452 | 433 |
+| [ma-2023.csv](./input/ma-2023.csv) | 574 | 552 |
+| [ma-2024.csv](./input/ma-2024.csv) | 481 | 467 |
+| [ma-2025.csv](./input/ma-2025.csv) | 443 | 427 |
+
+### 2025 Incidents with Summaries
+We submitted public records requests to agencies across Massachusetts requesting the reports for the incidents in [ma-2025.csv](./input/ma-2025.csv).
+
+For privacy reasons, we are not publishing the incident reports themselves. Instead, we've generated a one-sentence summary of each incident using [Claude Opus 5.5](https://platform.claude.com/docs/en/models/opus-5-5/overview).
+
+[Download incidents.csv](./tables/incidents.csv) for all 2025 incidents with summaries.
+
+Gathering the incident reports is a work in progress. This table tracks our progress:
 
 # Internal Notes
 

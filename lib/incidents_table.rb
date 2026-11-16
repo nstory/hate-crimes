@@ -5,7 +5,7 @@
 #   request_status  Received (report PDF), Denied (withheld .txt), or blank
 #   summary         the one-sentence summary for received reports, else blank
 #
-# Writes output/incidents.csv.
+# Writes tables/incidents.csv.
 
 require "csv"
 require "fileutils"
@@ -21,7 +21,7 @@ COLUMNS = %w[
   incident_exceptional_clearance
 ].freeze
 
-OUT = "output/incidents.csv"
+OUT = "tables/incidents.csv"
 
 offenses = CSV.read("input/ma-2025.csv", headers: true)
 incidents = offenses.group_by { |row| row["month_ddocname"] }
