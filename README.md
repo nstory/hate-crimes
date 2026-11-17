@@ -195,9 +195,9 @@ Gathering the incident reports is a work in progress. This table tracks our prog
 
 | Status | Incidents |
 | :--- | ---: |
-| Received | 63 |
+| Received | 66 |
 | Denied | 18 |
-| In Progress | 346 |
+| In Progress | 343 |
 | **Total** | **427** |
 
 <!-- /progress -->
