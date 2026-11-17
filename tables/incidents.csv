@@ -2,7 +2,7 @@ month_ddocname,agency_pub_agency_name,incident_date,incident_offense_count,incid
 2025_01_MA0130100_252000224_INC,Boston,2025-01-01,1,Intimidation,Anti-Black or African American; Anti-Mental Disability,1,Victim Refused to Cooperate,,
 2025_01_MA0130100_252000843_INC,Boston,2025-01-03,1,Simple Assault,Anti-Other Race/Ethnicity/Ancestry,1,Not Applicable,,
 2025_01_MA0093500_25-8-OF_INC,Pepperell,2025-01-04,1,Destruction/Damage/Vandalism of Property,Anti-Gay (Male),1,Not Applicable,,
-2025_01_MA0090700_25000335_INC,Belmont,2025-01-06,1,All Other Larceny,Anti-Other Race/Ethnicity/Ancestry,1,Not Applicable,,
+2025_01_MA0090700_25000335_INC,Belmont,2025-01-06,1,All Other Larceny,Anti-Other Race/Ethnicity/Ancestry,1,Not Applicable,Received,"A man got out of a car, covered his face and took a Ukrainian flag from the front porch of a home."
 2025_01_MA0070500_25-89-OF_INC,Chicopee,2025-01-07,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,Received,"A blue swastika was spray-painted on a resident's backyard fence facing Preston Park, the second time in a few days, and a neighbor's fence was also tagged with a blue swastika."
 2025_01_MA0093900_25001148_INC,Somerville,2025-01-07,2,Simple Assault | Destruction/Damage/Vandalism of Property,Anti-Hispanic or Latino | Anti-Hispanic or Latino,2,Not Applicable,,
 2025_01_MA0130100_252001742_INC,Boston,2025-01-07,1,Intimidation,Anti-Black or African American,2,Not Applicable,,
@@ -77,14 +77,14 @@ month_ddocname,agency_pub_agency_name,incident_date,incident_offense_count,incid
 2025_03_MA0071800_25-3192-OF_INC,Springfield,2025-03-25,1,Intimidation,Anti-Hispanic or Latino,1,Not Applicable,Received,"An employee at the MadRags store reported that a man came in, yelled at staff and said ""I'm gonna kill you and all these puerto ricans."""
 2025_03_MA0093000_25005635_INC,Medford,2025-03-28,1,Intimidation,Anti-Hispanic or Latino,1,Not Applicable,,
 2025_03_MA0130100_252024342_INC,Boston,2025-03-28,1,Intimidation,Anti-Black or African American,1,Not Applicable,,
-2025_03_MA0090700_25005248_INC,Belmont,2025-03-29,1,Destruction/Damage/Vandalism of Property,Anti-Asian,1,Not Applicable,,
+2025_03_MA0090700_25005248_INC,Belmont,2025-03-29,1,Destruction/Damage/Vandalism of Property,Anti-Asian,1,Not Applicable,Denied,
 2025_03_MA0111000_2025-I-00547_INC,Franklin,2025-03-30,1,Destruction/Damage/Vandalism of Property,Anti-Black or African American,1,Not Applicable,,
 2025_03_MA313SP00_25FTRP1286_INC,State Police:,2025-03-31,1,Simple Assault,Anti-White,1,Not Applicable,,
 2025_04_MA0082600_25CP5-98-OF_INC,Smith College,2025-04-01,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,,
 2025_04_MA0071000_IN-25-02508_INC,Holyoke,2025-04-02,1,Simple Assault,Anti-Hispanic or Latino,1,Not Applicable,,
 2025_04_MA009IT00_25009932_INC,Massachusetts Institute of Technology,2025-04-03,1,Simple Assault,Anti-Asian,1,Not Applicable,,
 2025_04_MA0071800_25-3645-OF_INC,Springfield,2025-04-04,1,Intimidation,Anti-White,1,Not Applicable,Received,"A man walking his bicycle reported that a stranger jumped out of the woods yelling ""Faggot ass white people,"" threatened to kill, stab and shoot him, and threw his bicycle."
-2025_04_MA0090700_25006029_INC,Belmont,2025-04-11,1,Intimidation,Anti-Hispanic or Latino,1,Not Applicable,,
+2025_04_MA0090700_25006029_INC,Belmont,2025-04-11,1,Intimidation,Anti-Hispanic or Latino,1,Not Applicable,Received,"A family reported that their next-door neighbors have harassed them for over a year and a half, including yelling ""Wetback,"" ""Stupid Mexican,"" ""Get out of my country"" and ""Are you ready to pay for the wall"" at them through speakers on their outdoor cameras."
 2025_04_MA0091700_0935997_INC,Everett,2025-04-11,1,Simple Assault,Anti-Black or African American,1,Not Applicable,Denied,
 2025_04_MA0053600_2500005735_INC,Salem State University,2025-04-12,1,Destruction/Damage/Vandalism of Property,Anti-Black or African American,1,Not Applicable,,
 2025_04_MA0072200_25-317-OF_INC,Westfield,2025-04-13,2,All Other Larceny | Destruction/Damage/Vandalism of Property,Anti-Bisexual | Anti-Bisexual,1,Not Applicable,,
@@ -205,7 +205,7 @@ month_ddocname,agency_pub_agency_name,incident_date,incident_offense_count,incid
 2025_06_MA0091300_0944793_INC,Chelmsford,2025-06-30,1,Intimidation,Anti-Arab,1,Not Applicable,,
 2025_06_MA0130100_252052869_INC,Boston,2025-06-30,1,Aggravated Assault,Anti-Black or African American,2,Not Applicable,,
 2025_07_MA0072100_25-15267_INC,West Springfield,2025-07-01,1,Destruction/Damage/Vandalism of Property,Anti-Black or African American,2,Not Applicable,,
-2025_07_MA0090700_25011319_INC,Belmont,2025-07-02,1,All Other Larceny,Anti-Black or African American,1,Not Applicable,,
+2025_07_MA0090700_25011319_INC,Belmont,2025-07-02,1,All Other Larceny,Anti-Black or African American,1,Not Applicable,Received,"A resident's ""Black Lives Matter"" lawn sign was stolen."
 2025_07_MA0131900_25-294-OF_INC,Division of Law Enforcement,2025-07-02,1,Destruction/Damage/Vandalism of Property,Anti-Black or African American; Anti-Jewish,1,Not Applicable,,
 2025_07_MA0093900_25038100_INC,Somerville,2025-07-03,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,,
 2025_07_MA0130100_252053844_INC,Boston,2025-07-03,1,Intimidation,Anti-Asian,1,Victim Refused to Cooperate,,
@@ -216,7 +216,7 @@ month_ddocname,agency_pub_agency_name,incident_date,incident_offense_count,incid
 2025_07_MA008239E_25-202-OF_INC,Mount Holyoke College,2025-07-10,2,Burglary/Breaking & Entering | Destruction/Damage/Vandalism of Property,- | Anti-Transgender,1,Not Applicable,,
 2025_07_MA0130100_252055695_INC,Boston,2025-07-10,1,Destruction/Damage/Vandalism of Property,Anti-Asian,1,Not Applicable,,
 2025_07_MA0010700_25-018882_INC,Falmouth,2025-07-11,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,,
-2025_07_MA0090700_25011849_INC,Belmont,2025-07-11,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,,
+2025_07_MA0090700_25011849_INC,Belmont,2025-07-11,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,Received,Three orange swastikas were drawn in marker over a spray-painted stormtrooper helmet in the pedestrian tunnel under the train tracks on Concord Ave.
 2025_07_MA0092700_25003188_INC,Malden,2025-07-11,1,False Pretenses/Swindle/Confidence Game,Anti-Other Race/Ethnicity/Ancestry,1,Not Applicable,,
 2025_07_MA0110400_20250004016A_INC,Brookline,2025-07-14,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,,
 2025_07_MA0130100_252056972_INC,Boston,2025-07-14,1,Intimidation,Anti-Lesbian (Female),1,Not Applicable,,
@@ -261,7 +261,7 @@ month_ddocname,agency_pub_agency_name,incident_date,incident_offense_count,incid
 2025_08_MA0141400_25-76-AR_INC,East Brookfield,2025-08-15,1,Aggravated Assault,Anti-Gay (Male),1,Not Applicable,,
 2025_08_MA0140100_25-375-OF_INC,Ashburnham,2025-08-16,1,Simple Assault,Anti-Black or African American,1,Not Applicable,,
 2025_08_MA0051100_25042347_INC,Haverhill,2025-08-18,1,Intimidation,Anti-Black or African American,1,Not Applicable,Received,"A Black man reported that a man under a harassment prevention order phoned him, called him a ""Nigger,"" and threatened to have people beat him up if he came to their next court date."
-2025_08_MA0090700_25014601_INC,Belmont,2025-08-19,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,,
+2025_08_MA0090700_25014601_INC,Belmont,2025-08-19,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,Received,Two large swastikas were drawn in blue pen on a restroom wall at Waverly Place at McLean Hospital.
 2025_08_MA0130100_252068827_INC,Boston,2025-08-20,1,Simple Assault,Anti-Gender Non-Conforming,1,Not Applicable,,
 2025_08_MA0130100_252069321_INC,Boston,2025-08-21,1,Aggravated Assault,Anti-Gay (Male),1,Not Applicable,,
 2025_08_MA0093000_25016056_INC,Medford,2025-08-23,1,Destruction/Damage/Vandalism of Property,Anti-Black or African American,1,Not Applicable,,
@@ -305,7 +305,7 @@ month_ddocname,agency_pub_agency_name,incident_date,incident_offense_count,incid
 2025_09_MA0130100_252078130_INC,Boston,2025-09-17,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,,
 2025_09_MA0130100_252078080_INC,Boston,2025-09-18,1,Simple Assault,Anti-Black or African American,1,Not Applicable,,
 2025_09_MA0144300_202500035715_INC,Shrewsbury,2025-09-18,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,,
-2025_09_MA0090700_25016691_INC,Belmont,2025-09-19,1,Intimidation,Anti-Hispanic or Latino,1,Not Applicable,,
+2025_09_MA0090700_25016691_INC,Belmont,2025-09-19,1,Intimidation,Anti-Hispanic or Latino,1,Not Applicable,Received,"A woman reported that a man blocked her path on the sidewalk next to CVS on Alexander Ave, asked if she was Hispanic, told her to leave and moved toward her threateningly, and the man told police he had called her a ""shit spic."""
 2025_09_MA0092700_25004257_INC,Malden,2025-09-19,2,All Other Larceny | Counterfeiting/Forgery,- | Anti-Other Race/Ethnicity/Ancestry,1,Not Applicable,,
 2025_09_MA0130100_252078550_INC,Boston,2025-09-19,1,Aggravated Assault,Anti-Gay (Male),1,Not Applicable,,
 2025_09_MA0070500_25-3636-OF_INC,Chicopee,2025-09-21,1,Destruction/Damage/Vandalism of Property,Anti-Gay (Male),1,Not Applicable,Received,"A man reported that ""fagget"" was spray-painted on the sidewalk leading to his apartment and ""a fag"" with an arrow pointing toward it on an adjacent sidewalk, and said he suspects a man he met on Grindr who had threatened him that evening."
