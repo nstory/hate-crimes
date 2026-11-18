@@ -174,7 +174,7 @@ month_ddocname,agency_pub_agency_name,incident_date,incident_offense_count,incid
 2025_06_MA0071000_IN-25-04803_INC,Holyoke,2025-06-10,1,Aggravated Assault,Anti-Hispanic or Latino; Anti-Gay (Male),1,Not Applicable,,
 2025_06_MA009IT00_25017887_INC,Massachusetts Institute of Technology,2025-06-10,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,,
 2025_06_MA0130100_252046784_INC,Boston,2025-06-10,1,Intimidation,Anti-Black or African American,1,Not Applicable,,
-2025_06_MA0051400_25037815_INC,Lynn,2025-06-11,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,,
+2025_06_MA0051400_25037815_INC,Lynn,2025-06-11,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,Received,"Someone spray-painted ""MS-13"" and two swastikas on the wall under the bridge at Bennett Street and South Street."
 2025_06_MA0121100_25-364-OF_INC,Hull,2025-06-11,1,Destruction/Damage/Vandalism of Property,Anti-Jewish; Anti-Islamic (Muslim),1,Not Applicable,,
 2025_06_MA0130100_252047002_INC,Boston,2025-06-11,2,Aggravated Assault | Destruction/Damage/Vandalism of Property,Anti-White | Anti-Black or African American,3,Victim Refused to Cooperate,,
 2025_06_MA0093900_25033068_INC,Somerville,2025-06-13,2,Intimidation | Destruction/Damage/Vandalism of Property,Anti-Jewish; Anti-Gay (Male) | Anti-Black or African American; Anti-Gay (Male),1,Not Applicable,,
@@ -228,7 +228,7 @@ month_ddocname,agency_pub_agency_name,incident_date,incident_offense_count,incid
 2025_07_MA0091100_25006568_INC,Cambridge,2025-07-20,1,Aggravated Assault,Anti-Black or African American,1,Not Applicable,,
 2025_07_MA0130100_252058816_INC,Boston,2025-07-20,1,Aggravated Assault,Anti-White,1,Not Applicable,,
 2025_07_MA0130100_252058820_INC,Boston,2025-07-20,1,Destruction/Damage/Vandalism of Property,Anti-Gay (Male),1,Not Applicable,,
-2025_07_MA0051400_25047791_INC,Lynn,2025-07-21,1,Destruction/Damage/Vandalism of Property,Anti-Black or African American; Anti-Jewish,1,Not Applicable,,
+2025_07_MA0051400_25047791_INC,Lynn,2025-07-21,1,Destruction/Damage/Vandalism of Property,Anti-Black or African American; Anti-Jewish,1,Not Applicable,Received,"A swastika and the word ""nigger"" were spray-painted on the inside walls of a building on Mt. Vernon Street, and a work van parked out front was also spray-painted."
 2025_07_MA0096200_2025-01292_INC,Harvard University,2025-07-21,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,,
 2025_07_MA0052800_2500022379_INC,Salem,2025-07-23,1,Simple Assault,Anti-Black or African American,1,Not Applicable,Denied,
 2025_07_MA0130100_252059812_INC,Boston,2025-07-23,1,Intimidation,Anti-Other Race/Ethnicity/Ancestry,1,Not Applicable,,
@@ -334,7 +334,7 @@ month_ddocname,agency_pub_agency_name,incident_date,incident_offense_count,incid
 2025_10_MA0051700_25-1579-OF_INC,Marblehead,2025-10-08,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,,
 2025_10_MA0092600_20250015305A_INC,Lowell,2025-10-08,1,Aggravated Assault,Anti-Islamic (Muslim),1,Not Applicable,,
 2025_10_MA0093200_25-1428-OF_INC,Natick,2025-10-08,2,Burglary/Breaking & Entering | Destruction/Damage/Vandalism of Property,Anti-Black or African American; Anti-Jewish | Anti-Black or African American; Anti-Jewish,1,Not Applicable,Received,"Someone broke into a contractor's office trailer on Mechanic Street and covered its walls and ceiling with pro-Nazi, anti-Black and anti-gay graffiti."
-2025_10_MA0051400_25067087_INC,Lynn,2025-10-09,1,Intimidation,Anti-Jewish,1,Not Applicable,,
+2025_10_MA0051400_25067087_INC,Lynn,2025-10-09,1,Intimidation,Anti-Jewish,1,Not Applicable,Received,"A Jewish mail carrier at the Willow Street post office reported that a co-worker told him the Holocaust never happened, then made repeated remarks within his earshot such as ""I have 88 letters to deliver today"" and a description of children sent by train to a camp."
 2025_10_MA0080100_25-607-OF_INC,Amherst,2025-10-09,1,Simple Assault,Anti-Islamic (Muslim),2,Not Applicable,,
 2025_10_MA0130100_252086757_INC,Boston,2025-10-12,1,Destruction/Damage/Vandalism of Property,Anti-Other Religion,1,Not Applicable,,
 2025_10_MA0091100_25009704_INC,Cambridge,2025-10-14,1,Intimidation,Anti-Islamic (Muslim),1,Not Applicable,,
@@ -418,7 +418,7 @@ month_ddocname,agency_pub_agency_name,incident_date,incident_offense_count,incid
 2025_12_MA0050500_25027253_INC,Danvers,2025-12-18,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,Received,"A swastika about four inches tall was drawn in pencil on a wall of a classroom at Holten Richmond Middle School, where students had recently had a lesson on the Holocaust."
 2025_12_MA0050500_25027276_INC,Danvers,2025-12-18,1,Destruction/Damage/Vandalism of Property,Anti-Black or African American,1,Not Applicable,,
 2025_12_MA0140700_25-387-OF_INC,Bolton,2025-12-18,1,All Other Larceny,"Anti-Lesbian, Gay, Bisexual, or Transgender (Mixed Group)",1,Not Applicable,,
-2025_12_MA0051400_25082789_INC,Lynn,2025-12-19,2,Destruction/Damage/Vandalism of Property | Weapon Law Violations,Anti-Jewish | -,2,Not Applicable,,
+2025_12_MA0051400_25082789_INC,Lynn,2025-12-19,2,Destruction/Damage/Vandalism of Property | Weapon Law Violations,Anti-Jewish | -,2,Not Applicable,Denied,
 2025_12_MA0130100_252107550_INC,Boston,2025-12-21,1,Destruction/Damage/Vandalism of Property,Anti-Jewish,1,Not Applicable,,
 2025_12_MA0071800_25P005991_INC,Springfield,2025-12-23,1,Aggravated Assault,Anti-Transgender,1,Not Applicable,Received,"A transgender woman reported that a man who had previously followed and harassed her and called her ""faggot"" got out of his truck on High Street holding a kitchen knife, told her he was tired of seeing her around, and punched her in the face."
 2025_12_MA0130100_252108107_INC,Boston,2025-12-23,2,Simple Assault | Destruction/Damage/Vandalism of Property,Anti-Black or African American | -,1,Not Applicable,,
